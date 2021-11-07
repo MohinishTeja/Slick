@@ -1,0 +1,536 @@
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(248, 203, 212);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: rgb(250 249 250) 0px 0px 5px inset;
+    border-radius: 10px;
+}
+
+body{
+	background-color: rgb(250, 249, 250);
+}
+
+
+
+
+
+.navbar {
+	font-family: 'Fredoka One', cursive;
+	padding-top: 1.5em;
+    padding-bottom: 1em;
+	color: rgb(15, 68, 106);
+    background-color: #fff;
+  font-size: 12pt;
+  font-family: "Fredoka One", cursive;
+  font-family: 'Encode Sans', sans-serif;
+  border:none;
+  margin-bottom: 0;
+	border-bottom-width: 2px;
+	border-bottom-style:solid;
+	border-bottom-color:rgba(133,133,133,0.3);
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: white;
+		color: black;
+}
+
+.navbar-default .navbar-brand
+	 {
+    color: black;
+		
+	}
+	.navbar-default .navbar-nav>li>a{
+		color:rgb(15, 68, 106);
+		font-size:18pt;
+	}
+	.navbar-brand {
+		font-weight: 700;
+		font-size: 1.25em;
+		letter-spacing: 3px;
+	}
+
+
+.container-fluid {
+	background-color: #fff;
+}
+
+.navbar-toggle {
+	border: none;
+}
+
+.icon-bar {
+	color: black;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+
+
+.tag_h{
+    margin-top:5%;
+    margin-left: 30%;
+    font-size: 30pt;
+    font-family: "Fredoka One", cursive;
+    font-weight: 850;
+    color: rgb(15, 68, 106);
+}
+
+.tag_h6{
+    
+    margin-top:3%;
+    margin-left: 38%;
+    font-size: 15pt;
+    font-family: "Fredoka One", cursive;
+    font-weight: 850;
+    color: #111;
+}
+
+.button1{
+    
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    height: 48px;
+    padding: 0px 24px;
+    background-color: rgb(31, 199, 212);
+    color: white;
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
+
+
+.unlock-content {
+    display: none;
+  }
+  
+  .unlock-content .locked {
+    display: none;  
+  }
+  
+  .unlock-content .unlocked {
+    display: none;
+    
+  }
+
+
+  .main{
+	width: 	40vw;
+	background-color: white;
+	margin: auto;
+	position: relative;
+	top: 5vh;
+    margin-top: 2%;
+}
+body{
+	padding: 0;
+}
+.media-object{
+	width: 3.5vw;
+	height: 3.5vw;
+}
+.media{
+	padding: 0.5vw;
+}
+.media-body{
+	padding-left: 1vw;
+	font-size: 1.2vw;
+	position: relative;
+	top: 0.5vw;
+}
+.fa-ellipsis-h{
+	position: relative;
+	bottom: 2vw;
+	font-size: 1.5vw;
+	margin-right: 1vw;
+}
+.panel-body{
+	padding: 1vw;
+}
+.not{
+	height: 35vw;
+	width: 100%;
+}
+.iconsec{
+	padding-top: 1vw;
+	padding-left: 0.5vw;
+	font-size: 1.2vw;
+}
+.caption{
+	padding-left: 0.5vw;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.read{
+	padding-left: 0.5vw;
+	cursor: pointer;
+	color: grey;
+}
+.time{
+	font-size: 0.8vw;
+}
+.fa{
+	cursor : pointer
+}
+#open{
+	width: 100%;
+	background-color: #d32f2f;
+}
+#open:hover{
+	background-color: white;
+	color: #d32f2f;
+}
+.menu{
+	width: 100%;
+	background: inherit;
+	height: 3vw;
+	display: none;
+}
+.menu a{
+	margin-left: 2vw;
+	margin-right: 2vw;
+	font-size: 2vw;
+	color: #d32f2f;
+}
+@media only screen and (max-width: 425px){
+	.main{
+		width: 100vw;
+	}
+	.media-object{
+	    width: 10.5vw;
+	    height: 10.5vw;
+    }
+	.media{
+	    padding: 1.5vw;
+    }
+	.media-body{
+	    padding-left: 3vw;
+	    font-size: 5.6vw;
+	    position: relative;
+	    top: 1.5vw;
+    }
+	.fa-ellipsis-h{
+	    position: relative;
+	    bottom: 10vw;
+	    font-size: 5.5vw;
+	    margin-right: 3vw;
+    }
+	.panel-body{
+	    padding: 3vw;
+    }
+	.not{
+	    height: 60vw;
+	    width: 100%;
+    }
+	.iconsec{
+	    padding-top: 3vw;
+	    padding-left: 1.5vw;
+	    font-size: 5.6vw;
+    }
+	.caption{
+	    padding-left: 1.5vw;
+    }
+	.read{
+	    padding-left: 1.5vw;
+	
+    }
+	.time{
+	    font-size: 3.5vw;
+    }
+	.menu{
+		height: 9vw;
+	}
+	.menu a{
+	    margin-left: 6vw;
+	    margin-right: 6vw;
+	    font-size: 6vw;
+	    color: #d32f2f;
+    }
+}
+
+
+.button_submitt{
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    height: 48px;
+    padding: 0px 24px;
+    background-color: rgb(31, 199, 212);
+    color: white;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: -5%;
+    margin-top: 1%;
+}
+
+
+
+
+.pricing-table {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-bottom: 0%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 5%;
+    background: #fff;
+  }
+  
+  .pricing-table .ptable-item {
+    width: 33.33%;
+    padding: 0 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 992px) {
+    .pricing-table .ptable-item {
+      width: 33.33%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .pricing-table .ptable-item {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .pricing-table .ptable-item {
+      width: 100%;
+    }
+  }
+  
+  .pricing-table .ptable-single {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .pricing-table .ptable-header,
+  .pricing-table .ptable-body,
+  .pricing-table .ptable-footer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .pricing-table .ptable-status ,
+  .pricing-table .ptable-title,
+  .pricing-table .ptable-price,
+  .pricing-table .ptable-description,
+  .pricing-table .ptable-action {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .pricing-table .ptable-single {
+    background: #f6f8fa;
+  }
+  
+  .pricing-table .ptable-single:hover {
+    box-shadow: 0 0 10px #999999;
+  }
+  
+  .pricing-table .ptable-header {
+    margin: 0 30px;
+    padding: 30px 0 45px 0;
+    width: auto;
+    background: #2A293E;
+  }
+  
+  .pricing-table .ptable-header::before,
+  .pricing-table .ptable-header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #f6f8fa;
+  }
+  
+  .pricing-table .ptable-header::before {
+    right: 50%;
+    border-right: 250px solid transparent;
+  }
+  
+  .pricing-table .ptable-header::after {
+    left: 50%;
+    border-left: 250px solid transparent;
+  }
+  
+  .pricing-table .ptable-item.featured-item .ptable-header {
+    background: #FF6F61;
+  }
+  
+  .pricing-table .ptable-status {
+    margin-top: -30px;
+  }
+  
+  .pricing-table .ptable-status span {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    padding: 5px 0;
+    text-align: center;
+    color: #FF6F61;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    background: #2A293E;
+  }
+  
+  .pricing-table .ptable-status span::before,
+  .pricing-table .ptable-status span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #FF6F61;
+  }
+  
+  .pricing-table .ptable-status span::before {
+    right: 50%;
+    border-right: 25px solid transparent;
+  }
+  
+  .pricing-table .ptable-status span::after {
+    left: 50%;
+    border-left: 25px solid transparent;
+  }
+  
+  .pricing-table .ptable-title h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  
+  .pricing-table .ptable-price h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 15px;
+  }
+  
+  .pricing-table .ptable-price h2 small {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 16px;
+    margin-left: -15px;
+  }
+  
+  .pricing-table .ptable-price h2 span {
+    margin-left: 3px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .pricing-table .ptable-body {
+    padding: 20px 0;
+  }
+  
+  .pricing-table .ptable-description ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .pricing-table .ptable-description ul li {
+    color: #2A293E;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 7px;
+    border-bottom: 1px solid #dedede;
+  }
+  
+  .pricing-table .ptable-description ul li:last-child {
+    border: none;
+  }
+  
+  .pricing-table .ptable-footer {
+    padding-bottom: 30px;
+  }
+  
+  .pricing-table .ptable-action a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FF6F61;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: #2A293E;
+  }
+  
+  .pricing-table .ptable-action a:hover {
+    color: #2A293E;
+    background: #FF6F61;
+  }
+  
+  .pricing-table .ptable-item.featured-item .ptable-action a {
+    color: #2A293E;
+    background: #FF6F61;
+  }
+  
+  .pricing-table .ptable-item.featured-item .ptable-action a:hover {
+    color: #FF6F61;
+    background: #2A293E;
+  }
