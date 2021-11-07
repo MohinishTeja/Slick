@@ -16,3 +16,6 @@ Slick can hit hundreds of thousands of users if further developed and we are rea
 I have learned a lot about Smart contract development. Though I couldn't finish building the entire Dapp as planned, I still managed to build all the core features and deploy it successfully. We have never worked on such a complex smart contract before and are glad that we could finish it.
 ## What's next for Slick
 Slick currently needs lot of support in terms of frontend. We have built a robust smart contract for managing subscriptions and backend goals are achieved. Frontend needs to be built in much more user friendly manner. Chat and Video call options are also to be implemented using decentralised protocols like libp2p and livepeer in next version. Asides from this, Slick currently supports only few creators to post. This will expanded and all data will be stored in much more efficient decentralized storage like Filecoin.
+
+## Team
+ - P. Mohinish Teja      Discord - monish#4655
