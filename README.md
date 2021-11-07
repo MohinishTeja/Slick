@@ -1,4 +1,7 @@
 # Slick
+
+## Link 
+[Slick](https://muddy-sun-4824.on.fleek.co/)
 ## Inspiration
 Patreon has been a great tool for Youtubers or any other content creators to get support from their supporters steadily. Patreon is worth over 4 Billion Dollars and is growing fast. But there are lot of problems with it as well. Accessibility at different locations is the big challenge. Credit card and Bank support for Patreon is not available at all locations and countries. Also there is no proper feature to communicate between people. What if we can build a Patreon using Blockchain and cryptocurrency such that it will be universally compatible?
 ## What it does
