@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Slick</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script> 
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+<script src="https://buidl.secondstate.io/embed/main.js"></script>
+<script defer type="text/javascript" language="javascript" src="static/bundle2.js"></script>
+<link rel="stylesheet" href="styles/post.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.js"></script>
+<script src="https://bundle.run/buffer@5.2.1"></script>
+<!--
+    <script src="https://wzrd.in/standalone/buffer"></script>
+<script src="https://www.jsdelivr.com/package/npm/ipfs-mini"></script>-->
+
+</head>
+
+<!-- partial:index.partial.html -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<nav class="navbar navbar-default">
+        <div class="container-fluid">
+            
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                
+                <img src="img/datreon.png" height="50px" width="50px" style="margin-top:-2%;">
+                <a class="navbar-brand" href="index.html" style="padding-left: 65%; margin-top: -58.5%;"><h2>Slick</h2></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index2.html">New Post</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Meet</a></li>
+                    <li><a href="plan.html">Join Now!</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+    <div class="master">
+        <div class="slave">
+
+            <div class="slave_head">
+                <div class="slave_head_1">
+                    <div class="slave_head_2">
+                        <h2 class="slave_head_3">Post</h2>
+                        <div class="salve_head_4">Easily create a new post with the power of IPFS </div>
+                    </div>
+                </div>
+            </div>
+        
+
+
+        <div class="slave_body">
+            <div class="slave_body_1">
+                
+
+                
+                
+                
+                <div class="slave_body_3">
+                    <div class="slave_body_4">
+                        <div class="slave_body_5">
+                            <div class="slave_body_6">
+                                Attach File
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slave_body_7">
+                            <input type="file" name="type" id="photo"><br>
+                            <button type="button" onclick="upload()">Upload</button>
+                    </div>
+                </div>
+                
+                
+                <div class="slave_body_3">
+                    <div class="slave_body_4">
+                        <div class="slave_body_5">
+                            <div class="slave_body_6">
+                                IPFS Link
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slave_body_7">
+                        
+                        <input type="text" class="input_1" id="type111" inputmode="decimal" placeholder="Do not enter">
+                    </div>
+                </div>
+            
+
+                <div class="slave_body_3">
+                    <div class="slave_body_4">
+                        <div class="slave_body_5">
+                            <div class="slave_body_6">
+                                Info
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slave_body_7">
+                        <input class="input_1" id="type" inputmode="decimal" placeholder="Info about post">
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="slave_button">
+        <button class="button_submitt" id="btnn1" >Post</button>
+    </div>
+            </div>
+        </div>
+
+       <img src="../img/polygon-logo.svg" id="a1" style="margin-top: -45%; margin-left: 20%;">
+       <img src="../img/polygon-logo.svg" id="a1" style="margin-top: -20%; margin-left: 60%;">
+       <img src="../img/polygon-logo.svg" id="a1" style="margin-top: -70%; margin-left: 90%;">
+       <img src="../img/polygon-logo.svg" id="a1" style="margin-top: -90%; margin-left: 5%;">
+
+       <img src="img/metamask.svg" id="a1" height="5%" width="5%" style="margin-top: -50%; margin-left: 77%;">
+       <img src="img/metamask.svg" id="a1" height="5%" width="5%" style="margin-top: -25%; margin-left: 15%;">
+
+       <img src="img/coin.png"  style="margin-top: -65%; margin-left: -12%;">
+       <img src="img/coin.png"  style="margin-top: -90%; margin-left: 65%;">
+       <img src="img/coin.png"  style="margin-top: -90%; margin-left: 65%;">
+
+       <img src="img/ipfs.svg"  height="5%" width="5%" style="margin-top: -65%; margin-left: 70%;">
+       <img src="img/ipfs.svg"  height="5%" width="5%" style="margin-top: -90%; margin-left: 25%;">
+
+       <img src="img/wallet.png "  height="5%" width="5%" style="margin-top: -45%; margin-left: -28%;">
+       <img src="img/wallet.png "  height="5%" width="5%" style="margin-top: -30%; margin-left: 63%;">
+
+
+    </div>
+</div>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+</body>
+</html>

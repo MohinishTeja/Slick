@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Slick</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script> 
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+
+<script defer type="text/javascript" language="javascript" src="static/bundle4.js"></script>
+<link rel="stylesheet" href="styles/plan.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+<script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600&display=swap" rel="stylesheet"> 
+<!--
+  
+<script defer type="text/javascript" language="javascript" src="scripts/premier.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://wzrd.in/standalone/buffer"></script>
+<script src="https://www.jsdelivr.com/package/npm/ipfs-mini"></script>-->
+
+</head>
+
+<!-- partial:index.partial.html -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<nav class="navbar navbar-default">
+        <div class="container-fluid">
+            
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                
+                <img src="img/datreon.png" height="50px" width="50px" style="margin-top:-2%;">
+                <a class="navbar-brand" href="index.html" style="padding-left: 65%; margin-top: -58.5%;"><h2>Slick</h2></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index2.html">New Post</a></li>
+                  <li><a href="#">Inbox</a></li>
+                  <li><a href="#">Meet</a></li>
+                  <li><a href="plan.html">Join Now!</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    
+<div class="pricing-table">
+    <div class="ptable-item">
+      <div class="ptable-single">
+        <div class="ptable-header">
+          <div class="ptable-title">
+            <h2>Silver</h2>
+          </div>
+          <div class="ptable-price">
+            <h2><small></small>0.1 MATIC<span> Month</span></h2>
+          </div>
+        </div>
+        <div class="ptable-body">
+          <div class="ptable-description">
+            <ul>
+              <li>Full access</li>
+              <li>24X7 Support</li>
+              <li>Save Content</li>
+              <li>Chat with creators</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ptable-footer">
+          <div class="ptable-action">
+            <a onclick="pay1()" >Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="ptable-item featured-item">
+      <div class="ptable-single">
+        <div class="ptable-header">
+          <div class="ptable-status">
+            <span>Hot</span>
+          </div>
+          <div class="ptable-title">
+            <h2>Gold</h2>
+          </div>
+          <div class="ptable-price">
+            <h2><small></small>0.01 MATIC<span> Minute</span></h2>
+          </div>
+        </div>
+        <div class="ptable-body">
+          <div class="ptable-description">
+            <ul>
+                <li>Full access</li>
+                <li>24X7 Support</li>
+                <li>Save Content</li>
+                <li>No chat, call to creators</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ptable-footer">
+          <div class="ptable-action">
+            <a onclick="pay();">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="ptable-item">
+      <div class="ptable-single">
+        <div class="ptable-header">
+          <div class="ptable-title">
+            <h2>Platinum</h2>
+          </div>
+          <div class="ptable-price">
+            <h2><small></small>1.00 MATIC<span> Year</span></h2>
+          </div>
+        </div>
+        <div class="ptable-body">
+          <div class="ptable-description">
+            <ul>
+                <li>Full access</li>
+                <li>24X7 Support</li>
+                <li>Save Content</li>
+                <li>Chat and Video Call to creators</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ptable-footer">
+          <div class="ptable-action">
+            <a onclick="pay2()">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+
+
+
+
+
+
+
+<!-- Unlock scripts-->
+
+
+
+</body>
+</html>

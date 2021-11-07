@@ -1,0 +1,82 @@
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(248, 203, 212);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: rgb(250 249 250) 0px 0px 5px inset;
+    border-radius: 10px;
+}
+
+body{
+	background-color: rgb(250, 249, 250);
+}
+
+
+
+
+
+.navbar {
+	font-family: 'Fredoka One', cursive;
+	padding-top: 1.5em;
+    padding-bottom: 1em;
+	color: rgb(15, 68, 106);
+    background-color: #fff;
+  font-size: 12pt;
+  font-family: "Fredoka One", cursive;
+  border:none;
+  margin-bottom: 0;
+	border-bottom-width: 2px;
+	border-bottom-style:solid;
+	border-bottom-color:rgba(133,133,133,0.3);
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: white;
+		color: black;
+}
+
+.navbar-default .navbar-brand
+	 {
+    color: black;
+		
+	}
+	.navbar-default .navbar-nav>li>a{
+		color:rgb(15, 68, 106);
+		font-size:18pt;
+	}
+	.navbar-brand {
+		font-weight: 700;
+		font-size: 1.25em;
+		letter-spacing: 3px;
+	}
+
+
+.container-fluid {
+	background-color: #fff;
+}
+
+.navbar-toggle {
+	border: none;
+}
+
+.icon-bar {
+	color: black;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
