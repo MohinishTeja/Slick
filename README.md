@@ -18,4 +18,5 @@ I have learned a lot about Smart contract development. Though I couldn't finish 
 Slick currently needs lot of support in terms of frontend. We have built a robust smart contract for managing subscriptions and backend goals are achieved. Frontend needs to be built in much more user friendly manner. Chat and Video call options are also to be implemented using decentralised protocols like libp2p and livepeer in next version. Asides from this, Slick currently supports only few creators to post. This will expanded and all data will be stored in much more efficient decentralized storage like Filecoin.
 
 ## Team
+ - S. Mounika            Discord - Mounika Simhadri#6596
  - P. Mohinish Teja      Discord - monish#4655
