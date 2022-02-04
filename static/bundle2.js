@@ -1,4 +1,4 @@
- /* eslint-disable */
+ 
  /* eslint-disable */
  (function webpackUniversalModuleDefinition(root, factory) {
     if (typeof exports === 'object' && typeof module === 'object')
@@ -443,7 +443,7 @@ var firebaseConfig = {
     messagingSenderId: "330301951588",
     appId: "1:330301951588:web:a238b2942a4e6505095971"
   };
-  // Initialize Firebase
+  // Initialize Firebase just for metadata
   firebase.initializeApp(firebaseConfig);
 
   
