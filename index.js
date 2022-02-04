@@ -11,7 +11,7 @@ let cUSDcontract
 
 let anAddress = '0xD86518b29BB52a5DAC5991eACf09481CE4B0710d'
 let amount = "10000000000000000"
-
+let amount1 = "10000000000000000"
 const connectCeloWallet = async function () {
   if (window.celo) {
     try {
